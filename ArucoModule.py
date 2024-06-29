@@ -80,7 +80,7 @@ def augmentAruco(bbox, id, img, imgAug, drawId = True):
 def main():
     cap = cv2.VideoCapture(0)
     # imgAug = cv2.imread("D:\B.Tech EE1 IITD\Coding Practice\ArucoProject\Images\23.jpg")
-    augDics = loadAugImages('D:\B.Tech EE1 IITD\Coding Practice\ArucoProject\Images')
+    augDics = loadAugImages('.\Images')
     while True:
         success, img = cap.read()
         arucoFound = findArucoMarker(img)

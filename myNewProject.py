@@ -5,7 +5,7 @@ import os
 import ArucoModule as arm
 
 cap = cv2.VideoCapture(0)
-augDics = arm.loadAugImages('D:\B.Tech EE1 IITD\Coding Practice\ArucoProject\Images')
+augDics = arm.loadAugImages('.\Images')
 
 while True:
     success, img = cap.read()
